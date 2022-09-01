@@ -27,7 +27,7 @@ const Home = () => {
             <div className="trustInfo">
               <h2>COLETT</h2>
               <p>
-                <b>COLETT </b>is a brand of trust. We work in Synergy and
+                <b>COLETT </b>is a brand of trust.So We work in Synergy and
                 co-work with different sections of our team to reack the goal.
                 We believe in stronger foundation for a higher growth and the
                 pillar lies in satisfying our clients and customers. We are

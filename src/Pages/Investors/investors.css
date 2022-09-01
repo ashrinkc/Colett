@@ -1,0 +1,122 @@
+.investors{
+    background-color: #E3D4FF;
+    height: 60vh;
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    
+}
+
+.investorsInside{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 18vw;
+    gap: 3vh;
+}
+
+.inveTop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10vh;
+    margin-top: 5vh;
+}
+
+.inveTop>div>h1{
+    font-size: 3rem;
+    color: #300E66;
+    font-weight: 800;
+    letter-spacing: 4px;
+}
+
+.inveTop>div>h2{
+    font-size: 2rem;
+}
+
+.inveTop>div>img{
+    height: 60vh;
+    border-radius: 80px 0px;
+}
+
+.inveInfo{
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+}
+
+.inveData{
+    margin-top: 5vh;
+}
+
+.inveData>p{
+    font-size: 1rem;
+    letter-spacing: 2px;
+    
+}
+
+.inveData>p>b{
+    font-weight: 600;
+    color: #300E66;
+}
+
+.investorsInside>button{
+    background-color: #300E66;
+        font-size: 0.8rem;
+        border: none;
+        color: white;
+        width: 10vw;
+        height: 5vh;
+        border-radius: 0.5rem;
+}
+
+.investorsInside>img{
+    height: 23vh;
+}
+
+.inveInfo>button{
+    background-color: #300E66;
+        font-size: 0.8rem;
+        border: none;
+        color: white;
+        width: 10vw;
+        height: 5vh;
+        border-radius: 0.5rem;
+}
+
+.investorContainer{
+    display: flex;
+    gap: 15vh;
+}
+
+.mainInvestor{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10vh;
+}
+
+.inve{
+    width: 90%;
+}
+
+.ourInvestor{
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3vh;
+}
+
+.ourInvestor>h1{
+    font-size: 3rem;
+    color: #300E66;
+    font-weight: 800;
+}

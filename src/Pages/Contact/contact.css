@@ -1,0 +1,206 @@
+.tourImg {
+    width: 1352px;
+    height: 500px;
+}
+
+.contactUsHead {
+    background-color: rgb(54, 51, 51);
+    width: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
+}
+
+.contactConInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5vh;
+}
+
+.contactConInfo>p{
+    color: gray;
+}
+
+
+.contactContainer {
+    display: flex;
+    /* flex-direction: column; */
+    /* align-items: center; */
+    gap: 10vw;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.mainContactContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10vh 0;
+    /* width: 1350px; */
+    width: 100%;
+}
+
+.inputField {
+    display: flex;
+    align-items: center;
+    gap: 3vw;
+}
+
+.msgInput {
+    /* height: 2vh; */
+    width: 565px;
+}
+
+.checkBox{
+    display: flex;
+    
+}
+
+.checkBoxInfo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.checkBoxContainer{
+    width: 40vw;
+}
+
+input {
+    width: 262.34px;
+    height: 40px;
+}
+
+.contactSubmitbtn {
+    background-color: #300D66;
+    width: 13vw;
+    height: 7vh;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+
+.contactBtnContainer {
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+    margin-top: 2vh;
+    color: white;
+}
+
+.contactItem {
+    box-shadow: 0 2px 8px 0 rgb(99 99 99 / 20%);
+    width: 25vw;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+input{
+    border-top-style: hidden;
+        border-right-style: hidden;
+        border-left-style: hidden;
+        border-bottom-style: groove;
+}
+
+textarea{
+    border-top-style: hidden;
+        border-right-style: hidden;
+        border-left-style: hidden;
+        border-bottom-style: groove;
+}
+
+.inputInfo{
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+}
+
+.contactItems {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    width: 30vw;
+    background-color: #300D66;
+    color: white;
+    border-radius: 1rem;
+}
+
+.contactItemsInfo{
+    display: flex;
+        flex-direction: column;
+        gap: 5vh;
+    width: 25vw;
+    padding-top: 5vh;
+}
+
+.BigMsg{
+    margin-top: 3vh;
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+}
+
+.map {
+    width: 80%;
+    margin-top: 10vh;
+}
+
+.mobileInput {
+    display: none;
+}
+
+@media only screen and (max-width: 980px) {
+    .mainContactContainer {
+        /* width: 85rem; */
+    }
+
+    .mobileInput {
+        display: block;
+    }
+
+    .contactSubmitbtn {
+        width: 30%;
+    }
+
+    .inputField {
+        /* width: 100vw; */
+        flex-direction: column;
+
+    }
+
+    .contactItem {
+        width: 50vw;
+    }
+
+    .contactConInfo {
+        /* margin-left: 20vh; */
+    }
+
+    .BigMsg {
+        display: none;
+    }
+
+    h5 {
+        /* font-size: 35px; */
+    }
+
+
+    .contactContainer {
+        /* width: 90%; */
+        flex-direction: column;
+    }
+
+    .contactItem {
+        /* width: 100%; */
+        /* font-size: 40px; */
+    }
+}

@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&family=Josefin+Sans:wght@100&family=League+Gothic&family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,800;1,900&family=Red+Hat+Display:wght@500&family=Trispace:wght@300&display=swap');
+
+*{
+    font-family: 'Red Hat Display', sans-serif;
+    
+}
+.mainHome{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.home{
+    width: 90%;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
+.homeHead{
+    color: white;
+    /* position: absolute; */
+}
+
+.homeHeadImg{
+    /* position: absolute; */
+}
+
+.homeHead>div>img{
+    width: 90vw;
+    height: 70vh;
+    border-radius: 2rem;
+    
+}
+
+.homeHeadContent{
+    width: 90%;
+    position: relative;
+    /* top: 15vh; */
+    bottom: 55vh;
+    left: 5vw;
+}
+
+.homeHeadContent>h1{
+    font-size: 5rem;
+    font-weight: 900;
+    letter-spacing: 5px;
+}
+
+.homeHeadContent>h5{
+    font-size: 2rem;
+}
+
+.homeHeadContent>button{
+    font-size: 0.8rem;
+    font-weight: 600;
+    border: none;
+    width: 10vw;
+    height: 5vh;
+    border-radius: 0.5rem;
+    margin-top: 5vh;
+    color: rgba(48, 13, 102, 1);
+}
+
+.colletTrust{
+    color: rgba(48, 13, 102, 1);
+    margin-top: -10vw;
+    display: flex;
+    gap: 5vh;
+}
+
+.trustInfo{
+    width: 60%;
+}
+
+.trustInfo>button{
+    border: none;
+    background-color:rgba(48, 13, 102, 1);
+    color: white;
+    font-size: 0.8rem;
+    width: 9vw;
+    height: 5vh;
+    border-radius: 0.5rem;
+}
+
+.trustInfo>h2{
+    font-size: 3rem;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+.trustInfo>p{
+    font-size: 1.2rem;
+}
+.homeImg{
+    display: flex;
+    gap: 5vh;
+}
+
+.homeImg>img{
+    height: 50vh;
+    width: 18vw;
+    border-radius: 2rem;
+}
+
+.ourProperty{
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgba(48, 13, 102, 1);
+}
+
+.ourProperty>h2{
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.propertyList{
+    display: flex;
+    gap: 5vw;
+    margin-top: 5vh;
+}
+
+.propertyList:hover{
+    cursor: pointer;
+}
+
+.indiHouse{
+    width: 28vw;
+    height: 73vh;
+    border-radius: 2rem;
+    background-color: gainsboro;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    margin-top: 5vh;
+}
+
+.indiHouseInfo{
+    width: 27vw;
+    margin-top: 1vh;
+}
+
+.indiHouseInfo>img{
+    width: 27vw;
+    height: 42vh;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+}
+
+.indiHouseInfo>button{
+    border: none;
+        background-color: rgba(48, 13, 102, 1);
+        color: white;
+        font-size: 0.8rem;
+        width: 9vw;
+        height: 5vh;
+        border-radius: 0.5rem;
+}
+
+.indiHouseInfo>h3{
+    font-size: 1.1rem;
+    font-weight: 800;
+    margin-top: 5vh;
+}
+
+.indiHouseInfo>p{
+    font-size: 0.7rem;
+}
+
+.indiHouseData{
+    display: flex;
+    gap: 5vh;
+}

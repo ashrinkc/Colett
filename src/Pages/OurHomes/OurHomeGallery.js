@@ -37,7 +37,7 @@ const OurHomeGallery = () => {
         <h1>{name}</h1>
         <h5>{location}</h5>
         <div className="mainGalleryh">
-          <div className="gallery">
+          <div className="galleryh">
             <div className="galleryHead">
               <div className="galleryHeadoneh">
                 <div>

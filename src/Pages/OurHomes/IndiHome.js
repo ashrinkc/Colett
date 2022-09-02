@@ -46,7 +46,12 @@ const IndiHome = (props) => {
             area{" "}
           </p>
         </div>
-        <button onClick={() => navigate("/contact")}>CONTACT</button>
+        <div className="ourHomeBtn">
+          <button onClick={() => navigate(`/indiGallery/${props.items.id}`)}>
+            SHOW MORE
+          </button>
+          <button onClick={() => navigate("/contact")}>CONTACT</button>
+        </div>
       </div>
     </div>
   );

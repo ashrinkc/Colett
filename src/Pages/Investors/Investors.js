@@ -32,7 +32,15 @@ const Investors = () => {
             <div className="investorContainer">
               <div className="investors">
                 <div className="investorsInside">
-                  <img src="https://images.unsplash.com/photo-1623184663110-89ba5b565eb6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c21pbGluZyUyMG1hbnxlbnwwfHwwfHw%3D&w=1000&q=80" />
+                  {/* <img src="https://images.unsplash.com/photo-1623184663110-89ba5b565eb6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c21pbGluZyUyMG1hbnxlbnwwfHwwfHw%3D&w=1000&q=80" /> */}
+                  <h2>James Schumer</h2>
+                  <p>Investor of COLETT</p>
+                  <button>Contact</button>
+                </div>
+              </div>
+              <div className="investors">
+                <div className="investorsInside">
+                  {/* <img src="https://images.unsplash.com/photo-1623184663110-89ba5b565eb6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c21pbGluZyUyMG1hbnxlbnwwfHwwfHw%3D&w=1000&q=80" /> */}
                   <h2>Sunny Thakuri</h2>
                   <p>Investor of COLETT</p>
                   <button>Contact</button>
@@ -40,16 +48,8 @@ const Investors = () => {
               </div>
               <div className="investors">
                 <div className="investorsInside">
-                  <img src="https://images.unsplash.com/photo-1623184663110-89ba5b565eb6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c21pbGluZyUyMG1hbnxlbnwwfHwwfHw%3D&w=1000&q=80" />
-                  <h2>Sunny Thakuri</h2>
-                  <p>Investor of COLETT</p>
-                  <button>Contact</button>
-                </div>
-              </div>
-              <div className="investors">
-                <div className="investorsInside">
-                  <img src="https://images.unsplash.com/photo-1623184663110-89ba5b565eb6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c21pbGluZyUyMG1hbnxlbnwwfHwwfHw%3D&w=1000&q=80" />
-                  <h2>Sunny Thakuri</h2>
+                  {/* <img src="https://images.unsplash.com/photo-1623184663110-89ba5b565eb6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c21pbGluZyUyMG1hbnxlbnwwfHwwfHw%3D&w=1000&q=80" /> */}
+                  <h2>Kelly Rimey</h2>
                   <p>Investor of COLETT</p>
                   <button>Contact</button>
                 </div>

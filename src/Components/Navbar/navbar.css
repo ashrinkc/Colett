@@ -4,10 +4,39 @@
     height: 15vh;
 }
 
+.navIn{
+    display: flex;
+    gap: 5vh;
+}
+
 .navItems{
-    
+    color: white;
+}
+
+.navItems:hover{
+    color:gainsboro;
 }
 
 .logoo>img{
     height: 10vh;
+}
+
+@media only screen and (max-width: 980px){
+    .mainNavbb {
+            background-color: rgba(48, 13, 102, 1);
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .navv{
+            width: 90%;
+        }
+                .navItems {
+                    color: black;
+                    font-weight: 900;
+                    background-color: white;
+                    width: 20vw;
+                }
+
 }

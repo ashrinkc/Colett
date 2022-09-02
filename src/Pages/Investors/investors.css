@@ -28,14 +28,14 @@
     margin-top: 5vh;
 }
 
-.inveTop>div>h1{
+.inveInfo>h1{
     font-size: 3rem;
     color: #300E66;
     font-weight: 800;
     letter-spacing: 4px;
 }
 
-.inveTop>div>h2{
+.inveInfo>h2{
     font-size: 2rem;
 }
 
@@ -96,7 +96,7 @@
     display: flex;
     gap: 15vh;
     overflow: scroll;
-    width: 90%;
+    width: 95%;
 }
 
 .investorContainer::-webkit-scrollbar {
@@ -142,7 +142,14 @@
 
 
 @media only screen and (max-width: 980px){
+
     
+    .investorsInside{
+        width: 50vw;
+    }
+        .investorsInside>button{
+            width: 40%;
+        }
     .inveTop{
         flex-direction: column;
     }
@@ -154,8 +161,11 @@
    }
     
     .inveInfo>h1{
-        font-size: 1rem;
+        font-size: 2.5rem;
     }
+        .inveInfo>h2 {
+            font-size: 2rem;
+        }
     .inveInfo>button{
         width: 20%;
     }

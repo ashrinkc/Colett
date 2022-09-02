@@ -9,52 +9,70 @@ import { Link } from "react-router-dom";
 import logo from "../../Images/logoo.png";
 const Navbarr = () => {
   return (
-    <Navbar collapseOnSelect expand="lg" variant="dark" className="navv">
-      <Container>
-        <Navbar.Brand href="#home" className="logoo">
-          <img src={logo} />
-        </Navbar.Brand>
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-        <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="me-auto"></Nav>
-          <Nav>
-            <Link to="/" style={{ textDecoration: "none" }}>
-              <Nav.Link className="navItems" href="#home">
+    <div className="mainNavbb">
+      <Navbar collapseOnSelect expand="lg" variant="dark" className="navv">
+        <Container>
+          <Navbar.Brand href="#home" className="logoo">
+            <img src={logo} />
+          </Navbar.Brand>
+          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+          <Navbar.Collapse id="responsive-navbar-nav">
+            <Nav className="me-auto"></Nav>
+            <Nav className="navIn">
+              <Link
+                className="navItems"
+                to="/"
+                style={{ textDecoration: "none" }}
+              >
                 Home
-              </Nav.Link>
-            </Link>
-            <Link to="/about" style={{ textDecoration: "none" }}>
-              <Nav.Link className="navItems" href="#memes">
+              </Link>
+              <Link
+                className="navItems"
+                to="/about"
+                style={{ textDecoration: "none" }}
+              >
                 About Us
-              </Nav.Link>
-            </Link>
-            <Nav.Link className="navItems" href="#features">
-              Services
-            </Nav.Link>
-            <Link to="/ourHome" style={{ textDecoration: "none" }}>
-              <Nav.Link className="navItems" href="#pricing">
+              </Link>
+              <Link
+                className="navItems"
+                to="/about"
+                style={{ textDecoration: "none" }}
+              >
+                Services
+              </Link>
+              <Link
+                className="navItems"
+                to="/ourHome"
+                style={{ textDecoration: "none" }}
+              >
                 Our Homes
-              </Nav.Link>
-            </Link>
-            <Link to="/investors" style={{ textDecoration: "none" }}>
-              <Nav.Link className="navItems" href="#pricing">
+              </Link>
+              <Link
+                className="navItems"
+                to="/investors"
+                style={{ textDecoration: "none" }}
+              >
                 Investors
-              </Nav.Link>
-            </Link>
-            <Link to="/gallery" style={{ textDecoration: "none" }}>
-              <Nav.Link className="navItems" href="#pricing">
+              </Link>
+              <Link
+                className="navItems"
+                to="/gallery"
+                style={{ textDecoration: "none" }}
+              >
                 Gallery
-              </Nav.Link>
-            </Link>
-            <Link to="/contact" style={{ textDecoration: "none" }}>
-              <Nav.Link className="navItems" href="#pricing">
+              </Link>
+              <Link
+                className="navItems"
+                to="/contact"
+                style={{ textDecoration: "none" }}
+              >
                 Contact Us
-              </Nav.Link>
-            </Link>
-          </Nav>
-        </Navbar.Collapse>
-      </Container>
-    </Navbar>
+              </Link>
+            </Nav>
+          </Navbar.Collapse>
+        </Container>
+      </Navbar>
+    </div>
   );
 };
 

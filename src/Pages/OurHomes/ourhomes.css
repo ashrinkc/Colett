@@ -9,7 +9,7 @@
 }
 
 .ourHome{
-    width: 90%;
+    width: 95%;
     display: flex;
     gap: 5vh;
 }
@@ -37,6 +37,13 @@
     color:#300E66;
     font-weight: 800;
 }
+
+.ourHomeBottom>div>div>h2{
+    font-size: 1rem;
+        color: #300E66;
+        font-weight: 800;
+}
+
 
 .ourHomeBottom>div>h1 {
     font-size: 1.5rem;
@@ -67,6 +74,10 @@
     gap: 5vh;
 }
 
+.faci>p{
+    font-size: 0.7rem;
+}
+
 .facilities{
     background-color: #E3D4FF;
     padding-left: 2vh;
@@ -74,4 +85,29 @@
     height: 18vh;
     margin-bottom: 2vh;
     border-radius: 1rem;
+    width: 100%;
+}
+
+.inFacilities{
+    width: 90%;
+    height: 17vh;
+}
+
+@media only screen and (max-width: 980px) {
+    .ourHome{
+        flex-direction: column;
+    }
+    .ourHomeTop>img{
+        width: 100%;
+        height: auto;
+    }
+    .ourHomeMid{
+        flex-direction: row;
+    }
+        .ourHomeMid>img{
+            width: 26.8vw;
+        }
+                .ourHomeBottom>button{
+                    width: 20%;
+                }
 }

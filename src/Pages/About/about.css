@@ -4,7 +4,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 10vh;
+    margin: 10vh 0;
 }
 
 .aboutUs{
@@ -46,4 +46,17 @@
         margin-top: 5vh;
         color: white;
         background-color: rgba(48, 13, 102, 1);
+}
+
+@media only screen and (max-width: 980px){
+    .aboutUs>div>img{
+        width: 100%;
+        height: auto;
+    }
+    .aboutUs{
+        flex-direction: column;
+    }
+        .aboutUsInfo>button{
+            width: 30%;
+        }
 }

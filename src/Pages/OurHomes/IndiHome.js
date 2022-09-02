@@ -23,16 +23,18 @@ const IndiHome = (props) => {
           <p>{props.items.property}</p>
         </div>
         <div className="facilities">
-          <h2>Facilities</h2>
-          <div className="faci">
-            <p>3 Bed Rooms</p>
-            <p>1 Living Rooms</p>
-            <p>2 Washroom</p>
-          </div>
-          <div className="faci">
-            <p>Guset Toilet</p>
-            <p>Spacious Garden</p>
-            <p>Parking Space</p>
+          <div className="inFacilities">
+            <h2>Facilities</h2>
+            <div className="faci">
+              <p>3 Bed Rooms</p>
+              <p>1 Living Rooms</p>
+              <p>2 Washroom</p>
+            </div>
+            <div className="faci">
+              <p>Guset Toilet</p>
+              <p>Spacious Garden</p>
+              <p>Parking Space</p>
+            </div>
           </div>
         </div>
         <div>

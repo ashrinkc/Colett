@@ -58,7 +58,6 @@
 .galleryHeadone{
     display: flex;
     flex-direction: column;
-    gap: 5vh;
 }
 
 .galleryHeadone>div>img{
@@ -67,9 +66,26 @@
     border-radius: 1rem;
 }
 
+.itemG{
+    background: rgba(48, 13, 102, 0.91);
+        border-radius: 0px 80px 0px 30px;
+        /* width: 270px; */
+        position: relative;
+        color: white;
+        width: 15rem;
+            height: 2rem;
+            /* left: 127px;
+            top: 1146px; */
+            bottom: 5vh;
+            font-size: 1rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+}
+
 .galleryHeadtwo>img{
     width: 40vw;
-    height: 85vh;
+    height: 86vh;
     border-radius: 1rem;
 }
 
@@ -81,4 +97,16 @@
     border-radius: 1rem;
     width: 88vw;
     height: 90vh;
+}
+
+@media only screen and (max-width: 980px){
+    .galleryHead{
+        flex-direction: column;
+    }
+    .galleryHeadone>div>img{
+        width: 100%;
+    }
+    .galleryHeadtwo>img{
+        width: 100%;
+    }
 }

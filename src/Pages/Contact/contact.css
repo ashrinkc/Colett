@@ -159,12 +159,23 @@ textarea{
 }
 
 @media only screen and (max-width: 980px) {
+    .inputInfo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
     .mainContactContainer {
         /* width: 85rem; */
     }
 
     .mobileInput {
         display: block;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 5vh;
+        /* align-items: center; */
     }
 
     .contactSubmitbtn {
@@ -175,6 +186,22 @@ textarea{
         /* width: 100vw; */
         flex-direction: column;
 
+    }
+
+    
+    .contactContainer{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .contactItems{
+        /* align-items: flex-start; */
+        width: 95%;
+        height: 60vh;
+        
+    }
+    .contactItemsInfo{
+        width: 90%;
     }
 
     .contactItem {
@@ -196,7 +223,7 @@ textarea{
 
     .contactContainer {
         /* width: 90%; */
-        flex-direction: column;
+        flex-direction:column-reverse;
     }
 
     .contactItem {

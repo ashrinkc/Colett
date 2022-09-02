@@ -57,10 +57,14 @@ const Contact = () => {
                     <input onChange={(e) => setPhone(e.target.value)} />
                   </div>
                   <div className="mobileInput">
-                    <h5>For what purpose you want to contact us?</h5>
-                    <input onChange={(e) => setAddress(e.target.value)} />
-                    <h5>Message</h5>
-                    <input onChange={(e) => setMessage(e.target.value)} />
+                    <div>
+                      <h5>Contact Purpose?</h5>
+                      <input onChange={(e) => setAddress(e.target.value)} />
+                    </div>
+                    <div>
+                      <h5>Message</h5>
+                      <input onChange={(e) => setMessage(e.target.value)} />
+                    </div>
                     <div className="contactBtnContainer">
                       <button className="contactSubmitbtn">Submit</button>
                     </div>

@@ -174,5 +174,54 @@
 
 .indiHouseData{
     display: flex;
+    
     gap: 5vh;
+}
+
+@media only screen and (max-width: 980px) {
+    .propertyList>h5{
+        font-size: 0.8rem;
+    }
+    .ourProperty>h2{
+        font-size: 1rem;
+    }
+    .homeHeadContent{
+        font-size: 0.8rem;
+    }
+    .indiHouseInfo>img{
+        width: 100%;
+    }
+        .indiHouseInfo>button{
+            width: 40%;
+        }
+        .colletTrust{
+            margin-top: -35vh;
+        }
+    .indiHouse{
+        width: 100%;
+        
+    }
+    .indiHouseData{
+        width: 70%;
+        flex-direction: column;
+    }
+    .indiHouseInfo{
+        width: 95%;
+    }
+    .homeHeadContent>button{
+        width: 100%;
+    }
+    .colletTrust{
+        flex-direction: column;
+    }
+    .trustInfo{
+        width: 100%;
+    }
+        .trustInfo>button{
+            width: 30%;
+        }
+        .homeImg{
+            display: none;
+        }
+        
 }

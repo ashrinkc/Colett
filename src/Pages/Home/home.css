@@ -185,8 +185,13 @@
     .ourProperty>h2{
         font-size: 1rem;
     }
-    .homeHeadContent{
+    .homeHeadContent>h1{
         font-size: 0.8rem;
+        letter-spacing: 1px;
+    }
+
+    .homeHeadContent>h5{
+        font-size: 0.7rem;
     }
     .indiHouseInfo>img{
         width: 100%;
@@ -195,7 +200,7 @@
             width: 40%;
         }
         .colletTrust{
-            margin-top: -35vh;
+            margin-top: -30vh;
         }
     .indiHouse{
         width: 100%;

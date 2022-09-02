@@ -1,5 +1,6 @@
 export const OHOMEDATA = [
   {
+    id: "1",
     house: "London House",
     location: "London Streek, UK",
     property: "Apartment",
@@ -13,6 +14,7 @@ export const OHOMEDATA = [
       "https://media.houseandgarden.co.uk/photos/62cfe0129d61d1f8947b26d5/1:1/w_1600%2Cc_limit/paint1.jpg",
   },
   {
+    id: "2",
     house: "Manchester House",
     location: "Manchester Streek, UK",
     property: "Rooms",
@@ -26,6 +28,7 @@ export const OHOMEDATA = [
       "https://www.homestratosphere.com/wp-content/uploads/2017/04/living-room-apr27-172017-04-27-at-12.46.49-PM-33.jpg",
   },
   {
+    id: "3",
     house: "London House",
     location: "London Streek, UK",
     property: "Apartment",

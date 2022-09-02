@@ -55,7 +55,12 @@
     font-size: 0.8rem;
 }
 
-.ourHomeBottom>button{
+.ourHomeBtn{
+    display: flex;
+    gap: 3vh;
+}
+
+.ourHomeBottom>div>button{
     background-color: #300E66 ;
     font-size: 0.8rem;
     border: none;
@@ -93,6 +98,49 @@
     height: 17vh;
 }
 
+.homeGallery{
+    /* margin-top: 20vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 5vh 0;
+}
+
+.homeGallery>h1{
+    font-size: 3rem;
+    letter-spacing: 2px;
+}
+
+.homeGallery>h5 {
+    font-size: 1rem;
+}
+
+
+
+.galleryHeadoneh {
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+}
+
+.galleryHeadoneh>div>img {
+    width: 45vw;
+    height: 40vh;
+    border-radius: 1rem;
+}
+
+.galleryHeadtwoHome>img {
+    width: 40vw;
+    height: 86vh;
+    border-radius: 1rem;
+}
+
+.mainGalleryh{
+    width: 90%;
+}
+
 @media only screen and (max-width: 980px) {
     .ourHome{
         flex-direction: column;
@@ -106,8 +154,20 @@
     }
         .ourHomeMid>img{
             width: 26.8vw;
+            height: auto;
         }
-                .ourHomeBottom>button{
-                    width: 20%;
+                .ourHomeBottom>div>button{
+                    width: 40%;
                 }
+                .galleryHeadoneh>div>img{
+                    width: 100%;
+                }
+                .galleryHeadtwoHome>img{
+                    width: 100%;
+                }
+                .galleryO{
+
+                }
+                
+               
 }

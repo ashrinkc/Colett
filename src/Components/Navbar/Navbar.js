@@ -15,9 +15,11 @@ const Navbarr = () => {
           <Navbar.Brand href="#home" className="logoo">
             <img src={logo} />
           </Navbar.Brand>
+
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto"></Nav>
+
             <Nav className="navIn">
               <Link
                 className="navItems"

@@ -9,7 +9,9 @@ const IndiHouse = (props) => {
         <img src={props.item.img} />
         <h3>{props.item.title}</h3>
         <p>{props.item.desc}</p>
-        <button onClick={() => navigate("/ourHome")}>Find Out More</button>
+        <button onClick={() => navigate("/ourHome") || window.scrollTo(0, 0)}>
+          Find Out More
+        </button>
       </div>
     </div>
   );

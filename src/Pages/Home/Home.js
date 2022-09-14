@@ -47,13 +47,13 @@ const Home = () => {
           </div>
           <div className="ourProperty">
             <h2>Our Property List</h2>
-            <div className="propertyList">
+            {/* <div className="propertyList">
               <h5>House</h5>
               <h5>Apartment</h5>
               <h5>Land</h5>
               <h5>Hotels</h5>
               <h5>Hostels</h5>
-            </div>
+            </div> */}
             <div className="indiHouseData">
               {houseData.map((item) => {
                 return <IndiHouse item={item} />;

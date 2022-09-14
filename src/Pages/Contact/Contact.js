@@ -2,13 +2,34 @@ import React, { useState } from "react";
 import Navbar from "../../Components/Navbar/Navbar.js";
 import Iframe from "react-iframe";
 import "./contact.css";
+import axios from "axios";
 const Contact = () => {
-  const [fullName, setName] = useState();
-  const [jobTitle, setJob] = useState();
+  const [firstName, setName] = useState();
+  const [lastName, setLastName] = useState();
   const [email, setEmail] = useState();
   const [contact, setPhone] = useState();
   const [address, setAddress] = useState();
   const [message, setMessage] = useState();
+  const submitData = (e) => {
+    e.preventDefault();
+    const fullName = firstName.trim() + " " + lastName.trim();
+    const data = {
+      fullName,
+      email,
+      contact,
+      address,
+      message,
+    };
+    setName("");
+    setLastName("");
+    setEmail("");
+    setPhone("");
+    setAddress("");
+    setMessage("");
+    axios.post("http://localhost:3000/api/v1/contact", data).then((res) => {
+      console.log(res);
+    });
+  };
   return (
     <div>
       <Navbar />
@@ -36,13 +57,17 @@ const Contact = () => {
                 <div className="inputInfo">
                   <div>
                     <h5>First Name</h5>
-                    <input onChange={(e) => setName(e.target.value)} />
+                    <input
+                      value={firstName}
+                      onChange={(e) => setName(e.target.value)}
+                    />
                   </div>
                   <div>
                     <h5>E-Mail</h5>
                     <input
                       type="email"
                       name="email"
+                      value={email}
                       onChange={(e) => setEmail(e.target.value)}
                     />
                   </div>
@@ -50,20 +75,32 @@ const Contact = () => {
                 <div className="inputInfo">
                   <div>
                     <h5>Last Name</h5>
-                    <input onChange={(e) => setJob(e.target.value)} />
+                    <input
+                      value={lastName}
+                      onChange={(e) => setLastName(e.target.value)}
+                    />
                   </div>
                   <div>
                     <h5>Phone</h5>
-                    <input onChange={(e) => setPhone(e.target.value)} />
+                    <input
+                      value={contact}
+                      onChange={(e) => setPhone(e.target.value)}
+                    />
                   </div>
                   <div className="mobileInput">
                     <div>
-                      <h5>Contact Purpose?</h5>
-                      <input onChange={(e) => setAddress(e.target.value)} />
+                      <h5>Address</h5>
+                      <input
+                        value={address}
+                        onChange={(e) => setAddress(e.target.value)}
+                      />
                     </div>
                     <div>
                       <h5>Message</h5>
-                      <input onChange={(e) => setMessage(e.target.value)} />
+                      <input
+                        value={message}
+                        onChange={(e) => setMessage(e.target.value)}
+                      />
                     </div>
                     <div className="contactBtnContainer">
                       <button className="contactSubmitbtn">Submit</button>
@@ -73,9 +110,10 @@ const Contact = () => {
               </div>
               <div className="BigMsg">
                 <div>
-                  <h5>For what purpose you want to contact us?</h5>
+                  <h5>Address</h5>
 
                   <input
+                    value={address}
                     onChange={(e) => setAddress(e.target.value)}
                     className="msgInput"
                     // placeholder="Manage Property / Renting Property / Others"
@@ -84,13 +122,16 @@ const Contact = () => {
                 <div>
                   <h5>Message</h5>
                   <textarea
+                    value={message}
                     onChange={(e) => setMessage(e.target.value)}
                     rows="5"
                     cols="65"
                   />
                 </div>
                 <div className="contactBtnContainer">
-                  <button className="contactSubmitbtn">Submit</button>
+                  <button className="contactSubmitbtn" onClick={submitData}>
+                    Submit
+                  </button>
                 </div>
               </div>
             </form>

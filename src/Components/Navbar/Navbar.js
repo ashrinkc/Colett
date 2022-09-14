@@ -37,7 +37,7 @@ const Navbarr = () => {
               </Link>
               <Link
                 className="navItems"
-                to="/about"
+                to="/service"
                 style={{ textDecoration: "none" }}
               >
                 Services

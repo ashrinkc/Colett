@@ -1,0 +1,41 @@
+.viewService{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3vh;
+    margin-top: 10vh;
+    background-color: rgb(48, 13, 102);
+    color: white;
+    height: 40vh;
+    border-radius: 2.5rem;
+}
+
+.viewService>h1{
+    font-size: 2rem;
+    
+}
+
+.viewService>p{
+    font-size: 0.8rem;
+    line-height: 0.5px;
+    margin-top: 2vh;
+}
+
+.mainService{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10vh 0;
+}
+
+.report{
+    margin-top: 10vh;
+    
+}
+
+.inService{
+    width: 90%;
+}

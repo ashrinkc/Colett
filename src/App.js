@@ -6,6 +6,7 @@ import Gallery from "./Pages/Gallery/Gallery";
 import OurHome from "./Pages/OurHomes/OurHome";
 import Investors from "./Pages/Investors/Investors";
 import OurHomeGallery from "./Pages/OurHomes/OurHomeGallery";
+import Service from "./Pages/Services/Service";
 function App() {
   return (
     <div>
@@ -16,6 +17,7 @@ function App() {
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/ourHome" element={<OurHome />} />
         <Route path="/investors" element={<Investors />} />
+        <Route path="/service" element={<Service />} />
         <Route path="/indiGallery/:id" element={<OurHomeGallery />} />
       </Routes>
     </div>

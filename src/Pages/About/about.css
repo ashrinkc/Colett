@@ -13,6 +13,11 @@
     gap: 10vh;
 }
 
+.aboutUsBottom{
+    width: 90%;
+    margin-top: 5vh;
+}
+
 .aboutUs>div>img{
     border-radius: 2rem;
 }

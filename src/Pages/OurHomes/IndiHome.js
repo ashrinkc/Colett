@@ -47,10 +47,17 @@ const IndiHome = (props) => {
           </p>
         </div>
         <div className="ourHomeBtn">
-          <button onClick={() => navigate(`/indiGallery/${props.items.id}`)}>
+          <button
+            onClick={() =>
+              navigate(`/indiGallery/${props.items.id}`) ||
+              window.scrollTo(0, 0)
+            }
+          >
             SHOW MORE
           </button>
-          <button onClick={() => navigate("/contact")}>CONTACT</button>
+          <button onClick={() => navigate("/contact") || window.scrollTo(0, 0)}>
+            CONTACT
+          </button>
         </div>
       </div>
     </div>
